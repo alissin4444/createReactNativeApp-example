@@ -5,8 +5,14 @@
     "name": "crna",
     "slug": "crna",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alissin4444r.crna"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "package": "com.alissin4444r.crna"
+    }
   }
 }
